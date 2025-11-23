@@ -1,0 +1,102 @@
+SPRAWOZDANIE Z PROJEKTU – LOKATOROWO
+
+Platforma wynajmu mieszkań
+Data: 23.11.2025
+Zespół: 3 osoby
+Technologie: React 19, Vite, Lucide React, React Router DOM
+
+PODZIAŁ PRAC
+Bartosz Sztanderski – Frontend (UI Components, w dalszych aktualizacjach głównie backend)
+
+Zakres: struktura komponentów, UI, stylizacja, ikony
+Wykonane komponenty:
+
+Header – fixed, grid 3 kolumny, logo, menu, blur background
+
+Hero – fullscreen, parallax image, gradient overlay, CTA
+
+SearchBar – 3-polowy formularz, ikony, floating card
+
+Features – 6 kart, gradienty, hover, auto-fit grid
+
+Technicznie: hooks, komponenty funkcyjne, import obrazów i ikon.
+
+Patryk Dobrzański – Frontend (Content & Interaction)
+
+Zakres: dynamiczne dane, mapowanie tablic, formularze
+Komponenty:
+
+Testimonials – 3 opinie, gwiazdki, avatary, quote icon
+
+ContactAgent – formularz + sekcja kontaktowa
+
+Footer – 4 kolumny, social media, linki, dark theme
+
+Dane: tablice testimonials i features, eventy formularzy.
+
+Adrian Chwała – DevOps & Design
+
+Zakres: konfiguracja projektu, grafiki, repozytorium, style globalne
+Zadania:
+
+Konfiguracja React + Vite (React 19, lucide-react, router)
+
+Dodanie grafik Freepik (Hero + 3 avatary + logo)
+
+Globalne style (reset, reusable classes, kolory, responsywność)
+
+Git: inicjalizacja, struktura commitów
+
+Struktura projektu (src/components + assets)
+
+WYZWANIA
+
+React 19 → zmiana na createRoot
+
+Usunięcie zbędnych importów React
+
+Brak Routera → dodanie BrowserRouter
+
+Problemy z logo → poprawny import przez Vite
+
+Pozycjonowanie Headera → zamiana flex na grid
+
+STATYSTYKI
+
+Komponentów: 7
+
+Około 1200 linii kodu
+
+Zależności: 5
+
+Obrazy: 4
+
+Ikony: 15+
+
+Czas: ~7-8 h
+
+Bundle prod: ~150 KB
+
+FUNKCJONALNOŚCI
+
+Responsywność, blur header, parallax hero, wyszukiwarka mieszkań,
+6 funkcjonalności, opinie, formularz kontaktowy, footer, smooth hover,
+Lucide icons, React Router.
+
+URUCHOMIENIE
+npm install
+npm run dev
+
+
+Adres: http://localhost:5173
+
+DALSZY ROZWÓJ
+
+Backend API, baza danych, logowanie JWT, panel admina, płatności, mapa,
+filtry ofert, wiadomości, upload zdjęć, rezerwacje, powiadomienia, testy, CI/CD.
+
+PODSUMOWANIE
+
+Projekt Lokatorowo to responsywna aplikacja React do wynajmu mieszkań o
+nowoczesnym, minimalistycznym designie. Podział pracy między frontend (UI + treści)
+oraz DevOps pozwolił szybko zbudować kompletny frontend przygotowany pod backend.
